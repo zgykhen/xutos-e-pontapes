@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xutos & Pontapés - Site oficial dos Xutos & Pontapés</title>
+    <meta
+      name="description"
+      content="Bem-vindo ao site oficial da banda Xutos e Pontapés. Aqui vais encontrar informações sobre a banda, seus albuns, próximos concertos e redes sociais."
+    />
+    <meta
+      name="keywords"
+      content="xutos e pontapés, banda, música, rock, shows, Portugal, Lisboa, álbuns"
+    />
+    <meta name="author" content="Bruno Santos" />
+    <meta name="robots" content="index,follow" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/50a9274fb1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  A Banda
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#biography">Biografia</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#tours"
+                      >Próximos concertos</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#photos"
+                  >Galeria</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#discography">Discografia</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#biography">Xutos e Pontapés</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <img class="w-100" src="pictures/frontpage.jpg" alt="frontpage" />
+      </section>
+
+      <!-- Fotos -->
+      <section class="bg-dark text-light p-5 text-center" id="photos">
+        <h1 class="mb-5">Fotos</h1>
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo1.png" target="_blank">
+                <img
+                  src="pictures/photo1.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo2.png" target="_blank">
+                <img
+                  src="pictures/photo2.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo3.png" target="_blank">
+                <img
+                  src="pictures/photo3.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo4.png" target="_blank">
+                <img
+                  src="pictures/photo4.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo5.png" target="_blank">
+                <img
+                  src="pictures/photo5.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <a href="pictures/photo6.png" target="_blank">
+                <img
+                  src="pictures/photo6.png"
+                  class="card-img-top"
+                  alt="xutos e pontapés foto"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Discografia -->
+      <section class="bg-secondary text-light p-5 text-center" id="discography">
+        <h1 class="mb-5">Discografia</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-4">
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>Duro</i> &nbsp; (2019)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/00kgOrNRzkCps7sW9xkvJy">
+                <img
+                  src="pictures/albuns/14-Duro.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Duro"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>Puro</i> &nbsp; (2014)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/0I5Ts7ee5dFm464LnhqoG2">
+                <img
+                  src="pictures/albuns/13-Puro.jpg"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Puro"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Estádio do Restelo</i> &nbsp; (2009)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/5yAuIiw5hUoHWI9o7PRs1W">
+                <img
+                  src="pictures/albuns/2009-Estádio-do-restelo-2009.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Estádio do Restelo"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Xutos & Pontapés</i> &nbsp; (2009)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/0Vq6UUlw7tFi1qd5UFKteo">
+                <img
+                  src="pictures/albuns/12-xutos-pontapes.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Xutos & pontapés"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>O Mundo Ao Contrário</i> &nbsp; (2004)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/1xpIhSvbhMXOlMrJy5fKxh">
+                <img
+                  src="pictures/albuns/11.-mundo-ao-contrário.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album O mundo ao contrário"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>XIII</i> &nbsp; (2001)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/2U9u0OwEJe94tAdcIjgeN3">
+                <img
+                  src="pictures/albuns/10-XIII.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album XIII"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>Tentação</i> &nbsp; (1998)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/7xfF8JSYbhCF12saab3SCo">
+                <img
+                  src="pictures/albuns/9-Tentação.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Tentação"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Dados Viciados</i> &nbsp; (1997)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/3Y56ZaumcT4cRYanHvHX9E">
+                <img
+                  src="pictures/albuns/8-dados-viciados.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Dados viciados"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Direito ao Deserto</i> &nbsp; (1993)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/3NX6Gs5K8vOo5pJU67htlr">
+                <img
+                  src="pictures/albuns/7-direito-ao-deserto.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Direito ao deserto"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Dizer Não De Vez</i> &nbsp; (1992)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/1S8PrPxJymfcIoLGK3o5dF">
+                <img
+                  src="pictures/albuns/6-dizer-nao-de-vez.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Dizer nao de vez"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Gritos Mudos</i> &nbsp; (1990)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/0cLDZOb0pjuyhuL23RwJOc">
+                <img
+                  src="pictures/albuns/5-gritos-mudos.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Gritos mudos"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>88</i> &nbsp; (1988)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/3y6jELygnNRGLmFyVHeUCW">
+                <img
+                  src="pictures/albuns/4-88.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album 88"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5">
+                  <i>Circo de Feras</i> &nbsp; (1987)
+                </h2>
+              </div>
+              <a href="https://open.spotify.com/album/5Ndj4wYxz8fNUbTPOGG9Tn">
+                <img
+                  src="pictures/albuns/3-circo.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Circo de feras"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>Cerco</i> &nbsp; (1985)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/5i1hWocsW7TxLnE0VAP4hH">
+                <img
+                  src="pictures/albuns/2-Cerco.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album Cerco"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>1972-1982</i> &nbsp; (1982)</h2>
+              </div>
+              <a href="https://open.spotify.com/album/3ZEdzPW2YTfXQYYFbgEfza">
+                <img
+                  src="pictures/albuns/1-7882.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="Album 78/82"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tours -->
+      <section class="bg-dark text-light p-5 text-center" id="tours">
+        <h1 class="mb-5">TOURS</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mb-4">
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>4 Março</i> &nbsp; (Porto)</h2>
+              </div>
+              <a
+                href="https://blueticket.meo.pt/Event/7955/XUTOS---PONTAP%C3%89S----O-CIRCO-DE-FERAS"
+              >
+                <img
+                  src="pictures/Cartaz-circo-de-feras.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="cartaz concerto"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>11 Março</i> &nbsp; (Elvas)</h2>
+              </div>
+              <a
+                href="https://blueticket.meo.pt/Event/7955/XUTOS---PONTAP%C3%89S----O-CIRCO-DE-FERAS"
+              >
+                <img
+                  src="pictures/Cartaz-circo-de-feras.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="cartaz concerto"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>25 Março</i> &nbsp; (Lisboa)</h2>
+              </div>
+              <a
+                href="https://blueticket.meo.pt/Event/7955/XUTOS---PONTAP%C3%89S----O-CIRCO-DE-FERAS"
+              >
+                <img
+                  src="pictures/Cartaz-circo-de-feras.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="cartaz concerto"
+              /></a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card bg-secondary">
+              <div class="card-body">
+                <h2 class="card-title mt-5"><i>4 Março</i> &nbsp; (Porto)</h2>
+              </div>
+              <a
+                href="https://blueticket.meo.pt/Event/7955/XUTOS---PONTAP%C3%89S----O-CIRCO-DE-FERAS"
+              >
+                <img
+                  src="pictures/Cartaz-circo-de-feras.webp"
+                  class="rounded mx-auto d-block img-fluid p-5"
+                  alt="cartaz concerto"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Biografia -->
+      <section class="bg-dark text-light p-5" id="biography">
+        <h1 class="mb-5 text-center">XUTOS E PONTAPÉS</h1>
+        <p>
+          Os Xutos e Pontapés são uma das bandas mais emblemáticas e influentes
+          do rock português. Formada em Lisboa em 1978, a banda é composta pelos
+          membros originais Tim (vocalista), Zé Pedro (guitarrista), Kalú
+          (baterista) e João Cabeleira (guitarrista), juntamente com o baixista
+          Gui (que entrou em 2004).
+        </p>
+        <p>
+          Os Xutos e Pontapés começaram a sua carreira tocando em festivais de
+          música e em pequenos clubes em Portugal. O seu primeiro álbum,
+          intitulado "1978", foi lançado em 1982 e incluía canções como "Sémen"
+          e "Sério". No ano seguinte, a banda lançou "Circo de Feras", que
+          apresentava músicas como "Barcos Gregos" e "Contentores". A partir
+          daí, os Xutos e Pontapés lançaram uma série de álbuns bem-sucedidos,
+          incluindo "Cerco" (1985), "Dizer Não de Vez" (1987), "88" (1988) e
+          "Circo de Ideias" (1990).
+        </p>
+        <p>
+          Ao longo das décadas, a banda consolidou a sua reputação como uma das
+          mais importantes do rock português, com sucessos como "À Minha
+          Maneira", "Maria", "Para Ti Maria", "Mundo ao Contrário" e
+          "Contentores", que se tornaram verdadeiros hinos para várias gerações
+          de portugueses.
+        </p>
+        <p>
+          Infelizmente, em 2017, a banda perdeu um dos seus membros fundadores,
+          o guitarrista Zé Pedro, que faleceu devido a complicações relacionadas
+          com cirrose. No entanto, os restantes membros continuaram a tocar
+          juntos, prestando homenagem ao seu amigo e companheiro de banda em
+          vários concertos.
+        </p>
+        <p>
+          Atualmente, os Xutos e Pontapés continuam a atuar em Portugal e no
+          estrangeiro, sendo uma presença constante em festivais de verão e em
+          concertos por todo o país. A sua música continua a ser amada por fãs
+          de todas as idades, tornando os Xutos e Pontapés uma verdadeira
+          instituição da música portuguesa.
+        </p>
+      </section>
+
+      <!-- Contactos -->
+      <section class="p-2 text-center bg-black text-light">
+        <h1 class="mb-2">Contacto</h1>
+        <p>Se és fã da banda envia uma mensagem</p>
+        <form>
+          <div class="container w-50">
+            <div class="mb-3">
+              <label for="name" class="form-label"
+                ><i class="fa-solid fa-user"></i> &nbsp; Nome
+              </label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="number" class="form-label"
+                ><i class="fa-solid fa-phone"></i> &nbsp; Telefone
+              </label>
+              <input type="text" class="form-control" id="number" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                ><i class="fa-solid fa-envelope"></i> &nbsp; Email
+              </label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label"
+                ><i class="fa-solid fa-comment"></i> &nbsp; Mensagem</label
+              >
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn-outline-light m-3" type="submit">
+              Enviar <i class="fa-sharp fa-solid fa-paper-plane"></i>
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="bg-dark p-3">
+      <div class="container text-center">
+        <a
+          class="text-light m-4 fs-4 text-decoration-none"
+          title="Facebook"
+          target="_blank"
+          href="http://facebook.com/xutosepontapes"
+        >
+          <i class="fa fa-facebook"></i>
+        </a>
+        <a
+          class="text-light m-4 fs-4 text-decoration-none"
+          title="Spotify"
+          target="_blank"
+          href="https://open.spotify.com/artist/1lQnDEcvFAWaUjbyZiHKih"
+        >
+          <i class="fa-brands fa-spotify"></i>
+        </a>
+        <a
+          class="text-light m-4 fs-4 text-decoration-none"
+          title="Twitter"
+          target="_blank"
+          href="http://twitter.com/xutosepontapes"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a
+          class="text-light m-4 fs-4"
+          title="Youtube"
+          target="_blank"
+          href="https://www.youtube.com/user/xutospontapes1979"
+        >
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

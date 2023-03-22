@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Lato;
+  src: url(../font/Lato.ttf);
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 70px;
+}
+
+h1, h2{
+  font-family: Lato;
+}
+
+.card:hover{
+  border: 1px solid white;
+}
